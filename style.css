@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #1c1c1c;
+  color: white;
+  letter-spacing: 0.05em;
+  font-size: 1.1rem;
+}
+
+.container {
+  max-width: 400px;
+  margin: 3em auto;
+  padding: 1.5em 3em;
+ display: flex;
+  flex-direction: column;
+  gap: 2em;
+  background: #1f2937;
+  border-radius: 10px;
+}
+
+h1 {
+  color: white;
+}
+
+.color-text {
+  color: #10B981;
+}
+
+.generate-section {
+  padding-bottom: 2.5em;
+  border-bottom: 1px solid #2F3E53;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#slider {
+  width: 8rem;
+  margin-top: 2em;
+}
+
+output {
+  margin-top: 1.5em;
+  text-align: right;
+}
+
+
+button {
+  background: #10B981;
+  border: 0;
+  margin-top: 2em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  letter-spacing: 0.05em;
+  transition-duration: 0.2s;
+}
+
+.password-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+}
+
+input {
+  background-color: #2F3E53;
+  border-radius: 5px;
+  color: #55F991;
+  border-style: none;
+  outline-style: none;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+input:active {
+border-radius: 5px;
+outline-style: none;
+border-style: none;
+color: #ffffff;
+padding: 1rem 0;
+width: 45%;
+cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+cursor: pointer;
+background: #273549;
+border-radius: 15px;
+}
